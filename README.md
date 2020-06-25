@@ -5,13 +5,13 @@ Ecommerce项目包括：
 
 |代码库|用途|地址|
 | --- | --- | --- |
-|ecommerce-order-service|Order服务|[https://github.com/e-commerce-sample/ecommerce-order-service](https://github.com/e-commerce-sample/ecommerce-order-service)|
-|ecommerce-order-query-service|Order查询服务|[https://github.com/e-commerce-sample/ecommerce-order-query-service](https://github.com/e-commerce-sample/ecommerce-order-query-service)|
-|ecommerce-product-service|Product服务|[https://github.com/e-commerce-sample/ecommerce-product-service](https://github.com/e-commerce-sample/ecommerce-product-service)|
-|ecommerce-inventory-service|Inventory服务|[https://github.com/e-commerce-sample/ecommerce-inventory-service](https://github.com/e-commerce-sample/ecommerce-inventory-service)|
-|ecommerce-shared-model|共享模型，不含Spring|[https://github.com/e-commerce-sample/ecommerce-shared-model](https://github.com/e-commerce-sample/ecommerce-shared-model)|
-|ecommerce-spring-common|Spring共享基础配置|[https://github.com/e-commerce-sample/ecommerce-spring-common](https://github.com/e-commerce-sample/ecommerce-spring-common)|
-|ecommerce-devops|基础设施|[https://github.com/e-commerce-sample/ecommerce-devops](https://github.com/e-commerce-sample/ecommerce-devops)|
+|ecommerce-order-service|Order服务|[https://github.com/e-commerce-mock/ecommerce-order-service](https://github.com/e-commerce-mock/ecommerce-order-service)|
+|ecommerce-order-query-service|Order查询服务|[https://github.com/e-commerce-mock/ecommerce-order-query-service](https://github.com/e-commerce-mock/ecommerce-order-query-service)|
+|ecommerce-product-service|Product服务|[https://github.com/e-commerce-mock/ecommerce-product-service](https://github.com/e-commerce-mock/ecommerce-product-service)|
+|ecommerce-inventory-service|Inventory服务|[https://github.com/e-commerce-mock/ecommerce-inventory-service](https://github.com/e-commerce-mock/ecommerce-inventory-service)|
+|ecommerce-shared-model|共享模型，不含Spring|[https://github.com/e-commerce-mock/ecommerce-shared-model](https://github.com/e-commerce-mock/ecommerce-shared-model)|
+|ecommerce-spring-common|Spring共享基础配置|[https://github.com/e-commerce-mock/ecommerce-spring-common](https://github.com/e-commerce-mock/ecommerce-spring-common)|
+|ecommerce-devops|基础设施|[https://github.com/e-commerce-mock/ecommerce-devops](https://github.com/e-commerce-mock/ecommerce-devops)|
 
 # 技术选型
 Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ/Kafka
@@ -19,7 +19,7 @@ Spring Boot、Gradle、MySQL、Junit 5、Rest Assured、Docker、RabbitMQ/Kafka
 # 本地构建
 
 在本地构建之前必须完成以下步骤：
-- Pull最新[devops](https://github.com/e-commerce-sample/devops)代码
+- Pull最新[devops](https://github.com/e-commerce-mock/devops)代码
 - 命令行进入`devops`项目的`local/rabbitmq`目录
 - 运行`./start-rabbitmq.sh`，用于启动RabbitMQ，整个Ecommerce下的所有服务只需启动RabbitMQ一次
 - 进入`devops`的`ecommerce-sample/devops/local/zipkin`目录
